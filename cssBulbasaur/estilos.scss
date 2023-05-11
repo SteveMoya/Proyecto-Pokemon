@@ -1,0 +1,135 @@
+:root {
+    --color1: #86c134;
+    --color2: #83ba36;
+}
+@font-face {
+    font-family: "Pokemon";
+    src: url(../recursos/Pokemon\ Hollow.ttf);
+}       
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: var(--color1);
+    background-image: url(fondoBotton.svg), url(fondoBotton.svg);
+    background-repeat: no-repeat , no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    animation: cambiar 15s ease-in-out infinite; /*25a*/
+    
+}
+
+@keyframes cambiar{
+  0%{background-position: -5 50%; filter: saturate(0);}
+  50%{background-position: 55% 550%; filter: saturate(1);}
+  75% {background-position: 10 50%; filter: saturate(1);}
+  100%{background-position: -5 50%; filter: saturate(0);}
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .card {
+    background-color: white;
+    width: 328px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  
+    &-header {
+      width: 100%;
+      display: block;
+    }
+    &-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 1px solid var(--color2);
+  
+      &-contentimg {
+        border: 5px solid var(--color2);
+        border-radius: 50%;
+        background-color: #baff59;
+        box-shadow: 0px -10px 20px var(--color2);
+        margin-top: calc(-50px - 10px);
+        &-img {
+          padding: 20px;
+          filter: drop-shadow(5px 10px 7.5px rgba(0,0,0,0.7));
+          -webkit-filter: drop-shadow(5px 10px 7.5px rgba(0,0,0,0.7));
+}
+      }
+      &-title {
+        margin: -10px -10px;
+        font-size: 3rem;
+        span {
+          color: var(--color2);
+          font-family: "Pokemon";
+          font-weight: 900;
+        }
+      }
+      &-text {
+        font-size: 20px;
+      }
+    }
+    &-footer {
+      display: flex;
+      justify-content: space-around;
+      &-poder {
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        
+      }
+    }
+  }
+
+  .botton {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: url(../imagenes/2.svg), auto;
+    
+    &-parrafo{
+      display: flex;
+      font-size: 25px;
+      font-weight: 900;
+      align-items: center;
+      justify-content: center;
+      color: var(--color2);
+      background-color: white;
+      padding: 5px 20px ;
+      border-radius: 5px;
+      transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+      
+    }
+    &-parrafo:hover{
+      background-color: var(--color2);
+      color: white;
+      transform: scale(105%);
+      -webkit-transform: scale(105%);
+      -moz-transform: scale(105%);
+      -ms-transform: scale(105%);
+      -o-transform: scale(105%);
+    }
+}
