@@ -37,7 +37,7 @@ Soy Pionero en la tendencia de el Marketing 5.0 en Republica Dominicana
 [![linkedin](https://img.shields.io/static/v1?label=&message=linkedin&color=0e76a8&logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/steve-moya-cepeda-549469227/)
 [![github](https://img.shields.io/static/v1?label=&message=github&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://github.com/SteveMoya)
 [![Website](https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://stevemoya.000webhostapp.com/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](Stevenmc2015@hotmail.com)
+
 
 <h2 align="left">🎁 Support:</h2>
 
