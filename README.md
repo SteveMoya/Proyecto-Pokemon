@@ -7,7 +7,7 @@
 ## Ejemplo en vivo
 <img src="https://github.com/SteveMoya/Proyecto-Pokemon.github.io/assets/114698709/7a9c0f1a-9426-46e4-b3c2-576268b100f9" width='550px'> 
 
-[![URL-de-Proyecto-Pokemon](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://proyecto-pokemon-kohl.vercel.app/)
+[![Website](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)](https://stevemoya.github.io/Proyecto-Pokemon/)
 
 ## Descripción 📑
 
