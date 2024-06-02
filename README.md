@@ -1,10 +1,11 @@
 
 # Proyecto Pokemon - Fan Made
 
-<img src="https://github.com/SteveMoya/Proyecto-Pokemon.github.io/assets/114698709/7a9c0f1a-9426-46e4-b3c2-576268b100f9" width='550px'> 
+![Proyecto-Pokemon](https://github.com/SteveMoya/Proyecto-Pokemon.github.io/assets/114698709/8bf71811-d5f8-40ed-b848-509adce62738)
 
 
 ## Ejemplo en vivo
+<img src="https://github.com/SteveMoya/Proyecto-Pokemon.github.io/assets/114698709/7a9c0f1a-9426-46e4-b3c2-576268b100f9" width='550px'> 
 
 [![URL-de-Proyecto-Pokemon](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://proyecto-pokemon-kohl.vercel.app/)
 
@@ -22,10 +23,7 @@ Este es mi primer proyecto con Sass, aprendi demasiado y mas la diferencia entre
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## Vista previa del proyecto
-Si quieres hechas un vistazo al proyecto.
 
-![Proyecto-Pokemon](https://github.com/SteveMoya/Proyecto-Pokemon.github.io/assets/114698709/8bf71811-d5f8-40ed-b848-509adce62738)
 
 
 
